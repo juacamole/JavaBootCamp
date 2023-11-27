@@ -11,5 +11,14 @@ public class FahrzeugMain {
         auto1.setHersteller("toyota");
         auto1.setModell("supra");
         Auto.AutoAuskunft(auto1.getHersteller(), auto1.getModell(), auto1.getBaujahr(), auto1.getTürenAnzahl(), auto1.getRäderAnzahl(), auto1.getPferdeStärke());
+
+        Motorrad moto1 = new Motorrad();
+        moto1.setPS(15);
+        moto1.setRäderanzahl(2);
+        moto1.setHubraum(125);
+        moto1.setHersteller("KTM");
+        moto1.setModell("duke");
+        moto1.setBaujahr(2014);
+        Motorrad.MotorradAuskunft(moto1.getHersteller(), moto1.getModell(), moto1.getBaujahr(), moto1.getRäderanzahl(), moto1.getPS(), moto1.getHubraum());
     }
 }
